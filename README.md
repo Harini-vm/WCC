@@ -4,7 +4,7 @@
 
 When someone leaves a project, Baton rebuilds what they knew from the project's own GitHub, documents and chat. Every statement links to the exact source text, every doubt is labelled, the person leaving answers only the gaps, and each successor sees only what their role is allowed to see.
 
-**Live app:** https://harini-vm.github.io/baton/  ·  **Code:** https://github.com/Harini-vm/WCC → click **Try the demo project**.
+**Live app:** https://wcc137.vercel.app/ ·  **Code:** https://github.com/Harini-vm/WCC → click **Try the demo project**.
 
 No sign-in, no install, no server. Everything runs in the browser, and data stays in that browser (localStorage).
 
