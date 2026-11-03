@@ -96,7 +96,6 @@ node scripts/train.mjs             # retrain the built-in AI model from data/ml-
 * Claude mode needs your own Anthropic API key, and your sentences are sent to Anthropic. It was tested against the live API's error responses and a mocked success, but not with a paid key.
 * Rule-based extraction is tuned on the demo project. On unfamiliar writing it will miss claims (low recall), though anything it does extract is cited.
 * Conflict detection covers known topics (hosting, auth, payments, push notifications, launch date, database) and named providers.
-* On a real repo (`harinivm8306/hyaria-new`: 0 issues, 0 PRs, 5 commits, 4 READMEs) Baton produced 52 cited claims and caught a real contradiction (90% vs 98% validation accuracy in the same README). Most output there is overview, setup and facts; rule-based extraction finds few *decisions* in real prose.
 * GitHub import is public repositories only and unauthenticated (60 requests/hour). No live Slack, Drive or Discord connection yet; use exports.
 * A share link is a snapshot of one approved version: it can't be revoked, and anyone who has it can read that view. Readiness-check results taken from a share link stay in that reader's browser.
 * State is per browser. There are no accounts, so “reviewer”, “leaver” and “successor” are roles you switch between, not separate logins.
