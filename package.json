@@ -1,0 +1,12 @@
+{
+  "name": "baton",
+  "version": "0.2.0",
+  "description": "Baton — evidence-linked, permission-aware knowledge handover (Round 2 build).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "test": "node --test tests/engine.test.mjs"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baton — handovers that prove themselves</title>
+  <meta name="description" content="Baton rebuilds a project's state from its own evidence, asks the person leaving only about the gaps, and shares just what the successor is allowed to see.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23161B24'/%3E%3Crect x='7' y='14' width='18' height='5' rx='2.5' fill='%23E8A93E' transform='rotate(-30 16 16)'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#app">Skip to content</a>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="#/" aria-label="Baton home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Baton</span>
+      </a>
+      <nav class="steps" id="steps" aria-label="Handover workflow"></nav>
+      <div class="top-tools" id="tools"></div>
+    </div>
+  </header>
+  <div class="role-bar" id="rolebar" hidden></div>
+  <main id="app" tabindex="-1"></main>
+  <dialog id="drawer" class="drawer" aria-labelledby="drawer-title"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:24px">Baton needs JavaScript enabled.</p></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

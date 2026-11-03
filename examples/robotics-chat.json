@@ -1,0 +1,6 @@
+[
+  { "user": "Meera", "ts": "2026-10-05T10:00:00Z", "text": "We moved the inventory database to MongoDB, Postgres was overkill for this." },
+  { "user": "Vikram", "ts": "2026-10-06T09:00:00Z", "text": "Firmware build is blocked until the motor driver arrives." },
+  { "user": "Ananya", "ts": "2026-10-08T16:00:00Z", "text": "Wiring diagram is done and uploaded to the drive." },
+  { "user": "Vikram", "ts": "2026-10-09T11:00:00Z", "text": "Is the lab free on the 18th?" }
+]
